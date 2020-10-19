@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Hola estas en la App Mascotas", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Creditos a Fede:)", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
