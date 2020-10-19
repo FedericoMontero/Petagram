@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        listadoMascotas = (RecyclerView) findViewById(R.id.rvMascotas);
+        listadoMascotas = (RecyclerView) findViewById(R.id.rvMascotas1);
         estrella = (ImageButton) findViewById(R.id.estrella);
 
         LinearLayoutManager llm = new LinearLayoutManager(this);
