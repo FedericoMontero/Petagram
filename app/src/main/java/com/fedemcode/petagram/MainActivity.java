@@ -81,11 +81,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
 
-        // noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (item.getItemId()){
+
+            case R.id.action_contacto:
+                break;
+            case R.id.action_ajustes:
+                break;
         }
 
         return super.onOptionsItemSelected(item);
