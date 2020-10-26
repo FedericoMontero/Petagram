@@ -1,14 +1,14 @@
 package com.fedemcode.petagram;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.ImageButton;
 import android.widget.TextView;
+
+import com.fedemcode.petagram.adapter.MascotasAdaptador;
 
 import java.util.ArrayList;
 

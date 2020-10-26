@@ -1,4 +1,4 @@
-package com.fedemcode.petagram;
+package com.fedemcode.petagram.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.fedemcode.petagram.DataSet;
+import com.fedemcode.petagram.R;
 
 import java.util.ArrayList;
 
